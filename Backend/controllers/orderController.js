@@ -11,7 +11,7 @@ const placeOrder = async (req, res) => {
         return res.json({ success: false, message: "No item in cart" })
     }
 
-    const frontend_url = 'http://localhost:5173'
+    const frontend_url = 'https://tomato-cpum.onrender.com/'
 
     try {
 
