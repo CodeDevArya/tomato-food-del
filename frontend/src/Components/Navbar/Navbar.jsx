@@ -26,7 +26,7 @@ const Navbar = ({ setShowLogin }) => {
         <a href='#footer' onClick={() => setMenu('contactUs')} className={menu === 'contactUs' ? 'active cursor-pointer' : 'cursor-pointer'}>contact us</a>
       </ul>
       <div className="menu-icons">
-        <img src={assets.search_icon} alt="Search" />
+{/*         <img src={assets.search_icon} alt="Search" /> */}
         <div className="relative cursor-pointer">
           <Link to='/cart'>
             <img src={assets.basket_icon} alt="cart" />
