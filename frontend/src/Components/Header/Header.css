@@ -64,6 +64,8 @@
     .header-description{
         display: none;
     }
+    .header-title{
+        display: none;
     .view-menu-button{
         padding: 2vw 4vw;
     }
